@@ -3,9 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha",
-    "coverage": "c8 --reporter=text --reporter=lcov mocha"
+    "coverage": "c8 mocha"
+  },
+  "c8": {
+    "exclude": [
+      "src/.internal/**",
+      "test/**",
+      "coverage/**",
+      "node_modules/**"
+    ],
+    "reporter": [
+      "text",
+      "lcov"
+    ]
   },
   "author": "",
   "license": "MIT",
