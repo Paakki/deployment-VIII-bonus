@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/Paakki/deployment-VIII/badge.svg?branch=main)](https://coveralls.io/github/Paakki/deployment-VIII?branch=main)
+
 # Student template
 
 ## Purpose of this repository
