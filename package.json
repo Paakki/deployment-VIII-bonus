@@ -1,0 +1,17 @@
+{
+  "name": "software-testing-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 --reporter=text --reporter=lcov mocha"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "c8": "^11.0.0",
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  }
+}
