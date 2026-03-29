@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node app.js",
     "test": "mocha",
     "coverage": "c8 mocha"
   },
@@ -26,5 +27,8 @@
     "c8": "^11.0.0",
     "chai": "^6.2.2",
     "mocha": "^11.7.5"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
